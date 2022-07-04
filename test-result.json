@@ -1,0 +1,145 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/AutomationPlaywright/kdv2-cucumber/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "D:/AutomationPlaywright/kdv2-cucumber/test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "D:\\AutomationPlaywright\\kdv2-cucumber\\node_modules\\experimental-allure-playwright\\dist\\index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "D:/AutomationPlaywright/kdv2-cucumber/test",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.22.2",
+    "workers": 4,
+    "webServer": null,
+    "_globalOutputDir": "D:\\AutomationPlaywright\\kdv2-cucumber",
+    "_configDir": "D:\\AutomationPlaywright\\kdv2-cucumber",
+    "_testGroupsCount": 2
+  },
+  "suites": [
+    {
+      "title": "login.test.js",
+      "file": "login.test.js",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Login KDV2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 9575,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\AutomationPlaywright\\kdv2-cucumber\\test-results\\login-Login-KDV2\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "login.test.js",
+          "line": 7,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tanyadokter.test.ts",
+      "file": "tanyadokter.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Tanya Dokter",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 12213,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\AutomationPlaywright\\kdv2-cucumber\\test-results\\tanyadokter-Tanya-Dokter\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tanyadokter.test.ts",
+          "line": 9,
+          "column": 6
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
